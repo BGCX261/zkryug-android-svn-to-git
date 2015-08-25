@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zkryug.test.square"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:label="Snake on a Phone" >
+        <activity
+            android:allowBackup="true"
+        	android:icon="@drawable/ic_launcher"
+            android:name="Square"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:screenOrientation="portrait"
+        	android:configChanges="keyboardHidden|orientation" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    
+    
+</manifest>

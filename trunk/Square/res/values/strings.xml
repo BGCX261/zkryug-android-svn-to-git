@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="mode_ready">Square\nPresiona "Arriba" para comenzar!</string>
+    <string name="square_layout_text_text"></string>
+
+</resources>
